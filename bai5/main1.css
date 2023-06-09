@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #a3a3a3;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    border: 1px solid #ecedee;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    height: 55px;
+  }
+  select {
+    color: #a3a3a3;
+  }
+  ::placeholder {
+    color: #a3a3a3;
+    opacity: 1;
+  }
+  textarea {
+    padding-top: 20px;
+    font-family: Helvetica,sans-serif;
+  }
+  button {
+    background-color: #2d3032;
+    border: 1px solid #2d3032;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    width: 32%;
+    padding: 18px 0 16px;
+    text-align: center;
+    transition: 0.3s background-color;
+  }
+  button:hover {
+    background-color: #606162;
+  }
+  

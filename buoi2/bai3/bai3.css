@@ -1,0 +1,45 @@
+.bg{
+    background-color: aquamarine;
+    width: 550px;
+    height: 320px;
+    border: 1px solid blue;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-sizing: content-box;
+}
+.bg .td{
+    width: 500px;
+    background-color: coral;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+
+}
+.bg .p1{
+    width: 500px;
+    height: 70px;
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid black;
+}
+.bg .p2{
+    width: 500px;
+    height: 70px;
+    background-color: hotpink;
+    padding: 10px;
+    border: 1px solid black;
+}
+.bg .bt {
+    background-color: brown;
+    color: aliceblue;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+
+}

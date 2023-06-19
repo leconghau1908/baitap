@@ -1,0 +1,43 @@
+.rate1{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    background-color: darkgray;
+    margin: 8px 0px;
+    border-radius: 10px;
+}
+.rate2{
+    position: absolute;
+    height: 20px;
+    width: 25%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: blue;
+
+}
+.rate3{
+    position: absolute;
+    height: 20px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: blue;
+
+}
+.rate4{
+    position: absolute;
+    height: 20px;
+    width: 75%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: blue;
+
+}
+.rate5{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: blue;
+
+}

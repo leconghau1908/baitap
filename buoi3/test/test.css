@@ -1,0 +1,34 @@
+.box-1 {
+    background: aquamarine;
+    border: 1px solid blue;
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+}
+.box-2{
+    margin: 20px;
+    background-color: brown;
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+.button1{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0px 0px 20px 20px;
+}
+.button2{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+.button1:hover{
+    background-color: azure;
+}
+.button2:active{
+    background-color: chocolate;
+}

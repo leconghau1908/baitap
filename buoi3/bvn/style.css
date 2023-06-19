@@ -8,7 +8,7 @@
     align-items: center;
 }
 body{
-    height: 1000px;
+    height: 100%;
 }
 .my-shop{
     position: absolute;
@@ -142,7 +142,26 @@ body{
     position: relative;
     border: 1px solid burlywood;
     padding: 6px;
-    display: flex;
+    display: block;
     background: antiquewhite;
-    align-items: center;
+    margin-top: 10%;
+    height: 100px;
+}
+.ft{
+    display: flex;
+}
+.fa {
+    position: relative;
+}
+.fa-map-marker{
+    position: absolute;
+    margin-top: 15px;
+}
+.fa {
+    position: relative;
+}
+.fa-phone{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 300px;
 }

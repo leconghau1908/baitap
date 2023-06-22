@@ -1,0 +1,83 @@
+.header{
+    position: relative;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: antiquewhite;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+}
+.logo{
+    display: flex;
+    margin-left:20px;
+}
+.logo1{
+    display:flex;
+    align-items: center;
+}
+.categories {
+    margin-right: 70px;
+}
+.top-film {
+    margin: 0px 20px;
+}
+.body{
+    display: flex;
+}
+.body-right {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.button {
+    margin-top: 7px;
+}
+.button21,.button22 {
+    background-color: white;
+    border-radius: 3px;
+}
+.tittle2{
+    display: flex;
+}
+.p2{
+    margin-left: 13px;
+}
+.tittle3{
+    display: flex;
+}
+.p3{
+    margin-left: 13px;
+}
+.tittle4{
+    display: flex;
+}
+.p4{
+    margin-left: 13px;
+}
+.body-left{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.star{
+    margin-top: 10px;
+}
+.time{
+    color: aqua;
+}
+.button2{
+    margin-top: 20px;
+}
+.body-tt{
+    margin-top: 76px;
+}
+.mt{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.footer{
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+}

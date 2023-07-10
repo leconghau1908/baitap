@@ -58,24 +58,44 @@
 //   let giaiThua = tinhGiaiThua(n);
 //   document.write( giaiThua);
 
-//bai 5
-function findSmallestNumber() {
-    let a = parseInt(document.getElementById("input-a").value);
-    let b = parseInt(document.getElementById("input-b").value);
-    let x = parseInt(document.getElementById("input-x").value);
+// //bai 5
+// function findSmallestNumber() {
+//     let a = parseInt(document.getElementById("input-a").value);
+//     let b = parseInt(document.getElementById("input-b").value);
+//     let x = parseInt(document.getElementById("input-x").value);
 
-    let smallestNumber = null;
+//     let smallestNumber = null;
 
-    for (let i = a; i <= b; i++) {
-        if (i % x === 0) {
-            smallestNumber = i;
-            break;
-        }
+//     for (let i = a; i <= b; i++) {
+//         if (i % x === 0) {
+//             smallestNumber = i;
+//             break;
+//         }
+//     }
+
+//     if (smallestNumber !== null) {
+//         document.getElementById("result").innerHTML = "Số nhỏ nhất chia hết cho " + x + 
+//         " trong khoảng từ " + a + " đến " + b + " là " + smallestNumber + ".";
+//     } else {
+//         document.getElementById("result").innerHTML = "Không có số nào chia hết cho " + x + " trong khoảng từ " + a + 
+//         " đến " + b + ".";
+//     }
+// }
+
+
+// tính tổng các số chạy từ a đến n
+function S() {
+    let a = parseInt(document.getElementById('input-a').value);
+    let n = parseInt(document.getElementById('input-n').value);
+
+    let S = 0;
+    for (let i=a; i<=n; i++) { 
+        S= S +i;
     }
 
-    if (smallestNumber !== null) {
-        document.getElementById("result").innerHTML = "Số nhỏ nhất chia hết cho " + x + " trong khoảng từ " + a + " đến " + b + " là " + smallestNumber + ".";
-    } else {
-        document.getElementById("result").innerHTML = "Không có số nào chia hết cho " + x + " trong khoảng từ " + a + " đến " + b + ".";
-    }
+if (S !== 0) {
+    document.getElementById("result").innerHTML="Tổng S là " +S + ".";
+} else {
+    document.getElementById("result").innerHTML="giỗng";
+}
 }

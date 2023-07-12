@@ -630,6 +630,16 @@ let users = [
 		job: 'Doctor',
 		country: 'Russia',
 		is_married: false,
+	},{
+		id: 51,
+		first_name: 'siuu',
+		last_name: 'ronaldo',
+		email: 'messi@gmail.com',
+		gender: 'male',
+		age: 21,
+		job: 'player soccer',
+		country : 'argentina',
+		is_married: true,
 	},
 ];
 function findUserById(n) {

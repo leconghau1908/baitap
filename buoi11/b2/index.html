@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thay đổi thuộc tính hình ảnh</title>
+  <style>
+    #image {
+      border: 1px solid black;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <div>
+    <img id="image" src="anh/meme.jpg" alt="siuuu">
+  </div>
+  <br>
+  <label for="url">URL:</label>
+  <br>
+  <input type="text" id="url" onchange="changeImage()">
+  <br>
+  <label for="width">Width:</label>
+  <br>
+  <input type="number" id="width" onchange="changeImage()">
+  <br>
+  <label for="height">Height:</label>
+  <br>
+  <input type="number" id="height" onchange="changeImage()">
+  <br>
+  <label for="border-radius">Border Radius:</label>
+  <br>
+  <input type="number" id="border-radius" onchange="changeImage()">
+  <br>
+  <label for="alt">Alt:</label>
+  <br>
+  <input type="text" id="alt" onchange="changeImage()">
+    </div>
+  
+
+  <script src="main.js">
+  </script>
+</body>
+</html>

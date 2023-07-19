@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favorite List</title>
+</head>
+<body>
+  <ul id="favorite-list">
+    <li class="favorite-list-item">Item 1</li>
+    <li class="favorite-list-item">Item 2</li>
+    <li class="favorite-list-item">Item 3</li>
+  </ul>
+
+  <script>
+   
+let listItems = document.querySelectorAll('li.favorite-list-item');
+for (let i = 0; i < listItems.length; i++) {
+  listItems[i].textContent = 'I love this thing';
+}
+
+
+for (let i = 0; i < listItems.length; i++) {
+  listItems[i].style.color = 'red';
+}
+
+
+let textInput = prompt('Nhập vào một đoạn text:');
+let favoriteList = document.querySelector('ul#favorite-list');
+
+
+let newListItem = document.createElement('li');
+newListItem.textContent = textInput;
+
+
+favoriteList.appendChild(newListItem);
+
+  </script>
+</body>
+</html>

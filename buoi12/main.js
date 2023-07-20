@@ -80,34 +80,47 @@ btnAdd.onclick = function () {
 };
 
 
+function updateStudent(index) {
+	const student = listStudent[index];
+
+	//Hiển thị lên input
+	document.getElementById('id').value = student.id;
+	document.getElementById('name').value = student.name;
+	document.getElementById('gender').value = student.gender;
+	document.getElementById('age').value = student.age;
+	document.getElementById('point').value = student.point;
+
+	btnUpdate.style.display = 'inline';
+	btnAdd.style.display = 'none';
+}
+
 btnUpdate.onclick = function () {
-    const id = Number(document.getElementById('id').value);
-    const name = document.getElementById('name').value;
-    const age = Number(document.getElementById('age').value);
-    const gender = document.getElementById('gender').value;
-    const point = Number(document.getElementById('point').value);
+	const id = Number(document.getElementById('id').value);
+	const name = document.getElementById('name').value;
+	const age = Number(document.getElementById('age').value);
+	const gender = document.getElementById('gender').value;
+	const point = Number(document.getElementById('point').value);
 
-    const studentUpdate = {
-        id: id,
-        name: name,
-        age: age,
-        gender: gender,
-        point: point,
-    };
+	const studentUpdate = {
+		id: id,
+		name: name,
+		age: age,
+		gender: gender,
+		point: point,
+	};
 
-    const indexToUpdate = listStudent.findIndex(student => student.id === id);
+	//tìm kiếm
+	for (let i = 0; i < listStudent.length; i++) {
+		if (listStudent[i].id === studentUpdate.id) {
+			listStudent[i] = studentUpdate;
+		}
+	}
 
-    if (indexToUpdate !== -1) {
-        listStudent[indexToUpdate] = studentUpdate;
-        renderStudent();
-
-        clearInput();
-
-        btnUpdate.style.display = 'none';
-        btnAdd.style.display = 'inline';
-    }
+	btnUpdate.style.display = 'none';
+	btnAdd.style.display = 'inline';
+	clearInput();
+	renderStudent();
 };
-
 
 function deleteStudent(index) {
     listStudent.splice(index, 1);
